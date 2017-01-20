@@ -1,0 +1,109 @@
+#absoluteBox {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 28px;
+	position: relative;
+	top: 0px;
+	left: 15px;
+	text-align: center;
+	width: 240px;
+	height: 100px;
+	line-height: 100px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#connectWithMe {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #4aaaa5;
+	float: right;
+	/*/*bottom: 313px;*/
+	background: white;
+}
+
+#aboutMe {
+	background: white;
+	/*position: relative;*/
+	/*top: 41px;*/
+	/*left: 25px;*/
+	height: 350px;
+	width: 700px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+#portfolio {
+	background: white;
+	position: relative;
+	left: 25px;
+	height: 800px;
+	width: 700px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+#contact {
+	background: white;
+	position: relative;
+	left: 25px;
+	height: 500px;
+	width: 500px;
+	padding-top: 5px;
+	padding-left: 20px;
+}
+
+.navBar {
+	color: #777777;
+	float: right;
+	position: relative;
+	bottom: 62px;
+	right: 120px;
+	font-size: 18px;
+}
+
+.container {
+	overflow: auto;
+	margin: 0;
+	display: block;
+	width: 100%;
+}
+
+header {
+	background: #ffffff;
+	padding-left: 50px;
+	border-bottom: 3px;
+	position: relative;
+}
+
+body {
+	background: url("../images/background.png");
+}
+
+h2 {
+	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #4aaaa5;
+}
+
+h3 {
+	position: relative;
+	left: 15px;
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+li {
+    display: inline;
+    padding: 5px 0px 5px 5px;
+}
+
+footer {
+	background: #666666;
+	padding: 25px;
+	color: white;
+	text-align: center;
+}
