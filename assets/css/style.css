@@ -4,7 +4,7 @@
 	color: white;
 	font-size: 28px;
 	position: relative;
-	top: 0px;
+	top: 32px;
 	left: 15px;
 	text-align: center;
 	width: 240px;
@@ -12,53 +12,156 @@
 	line-height: 100px;
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-left: 66px;
 }
 
 #connectWithMe {
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 	color: #4aaaa5;
 	float: right;
-	/*/*bottom: 313px;*/
 	background: white;
+	text-align: center;
+	width: 252px;
+	height: 169px;
+	margin-right: 115px;
+	margin-top: 22px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
 
 #aboutMe {
 	background: white;
-	/*position: relative;*/
-	/*top: 41px;*/
-	/*left: 25px;*/
-	height: 350px;
-	width: 700px;
-	padding-top: 5px;
-	padding-left: 20px;
+	height: 460px;
+	width: 600px;
+	padding-top: 1px;
+	padding-left: 25px;
+	padding-right: 15px;
+	float: left;
+	font-size: 19.5px;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 32px;
+	line-height: 33px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
 
 #portfolio {
 	background: white;
-	position: relative;
 	left: 25px;
-	height: 800px;
-	width: 700px;
+	height: 740px;
+	width: 600px;
 	padding-top: 5px;
 	padding-left: 20px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
 }
 
 #contact {
 	background: white;
-	position: relative;
+	color: #777777;
+	font-size: 20px;
+	float: left;
 	left: 25px;
-	height: 500px;
-	width: 500px;
+	height: 570px;
+	width: 600px;
 	padding-top: 5px;
 	padding-left: 20px;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+}
+
+#profilePhoto {
+	float: left;
+	overflow: auto;
+	margin-right: 30px;
+	padding-top: 18px;
+}
+
+#row1 {
+	display: inline;
+	float: left;
+	padding: 20px 20px 0px 10px;
+}
+
+#row2 {
+	display: inline;
+	float: left;
+	padding: 20px 20px 0px 10px;
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+	font-size: 15px;
+	color: white;
+	height: 35px;
+	width: 90px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+}
+
+#absoluteText1 {
+	width: 250px;
+	height: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-size: 19px;
+}
+
+#absoluteText2 {
+	width: 250px;
+	height: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-size: 19px;
+}
+
+#absoluteText3 {
+	width: 275px;
+	height: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-size: 19px;
+}
+
+#absoluteText4 {
+	width: 275px;
+	height: 20px;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px 0px 10px 0px;
+	text-align: center;
+	font-size: 19px;
+}
+
+.textPosition {
+	position: relative;
 }
 
 .navBar {
 	color: #777777;
 	float: right;
 	position: relative;
-	bottom: 62px;
-	right: 120px;
+	bottom: 38px;
+	right: 140px;
 	font-size: 18px;
 }
 
@@ -69,35 +172,39 @@
 	width: 100%;
 }
 
+.logos {
+	margin-top: 15px;
+}
+
 header {
 	background: #ffffff;
-	padding-left: 50px;
 	border-bottom: 3px;
 	position: relative;
 }
 
 body {
 	background: url("../images/background.png");
+	margin: 0;
+}
+
+p { 
+	color: #777777;
 }
 
 h2 {
 	font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
 	color: #4aaaa5;
-}
-
-h3 {
-	position: relative;
-	left: 15px;
+	font-size: 32px;
 }
 
 ul {
-    margin: 0px;
+	margin: 0px;
     list-style-type: none;
     padding: 5px 0px 5px 0px;
 }
 
 li {
-    display: inline;
+	display: inline;
     padding: 5px 0px 5px 5px;
 }
 
@@ -106,4 +213,7 @@ footer {
 	padding: 25px;
 	color: white;
 	text-align: center;
+	border-top-width: 10px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
 }

@@ -5,6 +5,9 @@
 	<title>Jesse Thomas's Basic Porfolio Page</title>
 	<link rel="stylesheet" type="text/css" href="assets/cs/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
 
 	<header>
 
@@ -12,39 +15,35 @@
 
 		<nav>
 			<ul class="navBar">
-        		<li><a href="index.html" style="color: #777777; text-decoration: none;">About</a></li>
+        		<li class="navBarOptions"><a href="index.html" style="color: #777777; text-decoration: none;">About</a></li>
         		<li> | </li>
-        		<li><a href="portfolio.html" style="color: #777777; text-decoration: none;">Portfolio</a></li>
+        		<li class="navBarOptions"><a href="portfolio.html" style="color: #777777; text-decoration: none;">Portfolio</a></li>
         		<li> | </li>
-        		<li><a href="contact.html" style="color: #777777; text-decoration: none;">Contact</a></li>
+        		<li class="navBarOptions"><a href="contact.html" style="color: #777777; text-decoration: none;">Contact</a></li>
     		</ul>
     	</nav>
 
+    <hr width="100%">
+
 	</header>
 
-</head>
-
-<body>
-
 	<div class="container">
-
-		<hr width="100%">
 
 		<div id="contact">
 
 			<h2>Contact</h2>
 
-			<hr align="left" width="97%">
+			<hr align="left" width="97%"><br>
 				
 			<form action="action_page.php">
 					
 				Name <br>
-					<input type="text" size="50"><br>
+					<input placeholder="John Appleseed" type="text" size="90%"><br><br>
 				Email <br>
-					<input type="text" size="50"><br>
+					<input placeholder="youremail@whatever.com" type="text" size="90%"><br><br>
 				Message <br>
-					<textarea type="text" rows="10" cols="50"></textarea><br>
-				<input type="submit" value="Submit">
+					<textarea type="text" rows="15" cols="89%"></textarea><br><br>
+				<input id="submitButton" type="submit" value="Submit">
 
 			</form>
 				
@@ -56,7 +55,7 @@
 
 	    	<hr width="85%">
 					
-			<ul>
+			<ul class="logos">
 				<a href="https://github.com/jthomasi" target="_blank"><img src="assets/images/GitHub.png" height="60" width="70" /></a>
 				<a href="https://www.linkedin.com/in/jthomasi" target="_blank"><img src="assets/images/LinkedIn_logo.png" height="60" width="70" /></a>
 				<a href="https://accounts.google.com/ServiceLogin?sacu=1&scc=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&osid=1&service=mail&ss=1&ltmpl=default&rm=false#identifier" target="_blank"><img src="assets/images/Gmail-logo.png" height="60" width="70" /></a>
@@ -66,8 +65,8 @@
 
 	</div>
 
-</body>
+	<footer> Copyright 2017 Jesse Thomas</footer>
 
-<footer> Copyright 2017 Jesse Thomas</footer>
+</body>
 
 </html>
